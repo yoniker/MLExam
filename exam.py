@@ -22,6 +22,7 @@ w4=0.3
 w5=0.6
 w6=0.15
 
+#I defined those in page 8 in the exam.
 o3=x1*w1
 o4=sig(x2*w2+x3*w3)
 
