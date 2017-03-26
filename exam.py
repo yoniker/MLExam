@@ -22,17 +22,17 @@ w4=0.3
 w5=0.6
 w6=0.15
 
-#I defined those in page 8 in the exam.
+#I defined those in page 8 lines 2+3 in the exam.
 o3=x1*w1
 o4=sig(x2*w2+x3*w3)
 
-#Saif Alef
+#Saif Alef- defined in page 8.
 
 o1=sig(w4*o3)
 o2=w5*o3*w6*o4
 
 #Saif Beit- I will write the formulas in the EXACT same manner as the exam
-#Page 8 in the exam:
+#Page 8 in the exam lines 4 through 9:
 
 dw1=x1*o4*w5*w6
 dw2=w5*o3*w6*d_sig(x2*w2+x3*w3)*x2
@@ -42,7 +42,7 @@ dw5=o3*w6*o4
 dw6=w5*o3*o4
 
 
-
+#Page 8 last line+page 9 first line.
 dw1=2*(1-o2)*dw1
 dw2=2*(1-o2)*dw2
 dw3=2*(1-o2)*dw3
