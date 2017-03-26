@@ -31,6 +31,8 @@ o1=sig(w4*o3)
 o2=w5*o3*w6*o4
 
 #Saif Beit- I will write the formulas in the EXACT same manner as the exam
+#Page 8 in the exam:
+
 dw1=x1*o4*w5*w6
 dw2=w5*o3*w6*d_sig(x2*w2+x3*w3)*x2
 dw3=w5*o3*w6*d_sig(x2*w2+x3*w3)*x3
@@ -55,5 +57,5 @@ for dw in grad:
     print('dw'+str(i)+'='+str(dw))
 
     
-#Saif Dalet
+#Saif Dalet-Page 10
 print('1-'+str(w5*w6*x1*o4)+'*w1')
